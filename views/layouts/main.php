@@ -9,6 +9,7 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
+use app\components\MenuWidget;
 
 AppAsset::register($this);
 ?>
@@ -27,6 +28,7 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div class="wrap">
+    <?= MenuWidget::widget(['tpl' => 'menu']) ?>
     <?php
     NavBar::begin([
         'brandLabel' => Yii::$app->name,

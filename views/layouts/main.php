@@ -28,7 +28,6 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div class="wrap">
-    <?= MenuWidget::widget(['tpl' => 'menu']) ?>
     <?php
     NavBar::begin([
         'brandLabel' => Yii::$app->name,

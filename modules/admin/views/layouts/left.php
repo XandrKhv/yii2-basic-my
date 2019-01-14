@@ -59,6 +59,7 @@
                     ],
                     ['label' => 'Файловый менеджер', 'icon' => 'folder-open-o', 'url' => ['/elfinder/manager']],
                     ['label' => 'Меню', 'icon' => 'bars', 'url' => ['/admin/menu']],
+                    ['label' => 'Записи', 'icon' => 'pencil-square-o', 'url' => ['/admin/post']],
                 ],
             ]
         ) ?>
